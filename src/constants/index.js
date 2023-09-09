@@ -1,0 +1,333 @@
+import {
+    mobile,
+    backend,
+    creator,
+    web,
+    javascript,
+    typescript,
+    html,
+    css,
+    reactjs,
+    redux,
+    tailwind,
+    nodejs,
+    mongodb,
+    git,
+    figma,
+    docker,
+    meta,
+    starbucks,
+    tesla,
+    shopify,
+    carrent,
+    jobit,
+    tripguide,
+    threejs,
+    restaurent,
+    ecommerce,
+    expenseTracker,
+    mail,
+    e,
+    chat,
+  } from "../assets";
+  
+  export const navLinks = [
+    {
+      id: "about",
+      title: "About",
+    },
+    {
+      id: "work",
+      title: "Work",
+    },
+    {
+      id: "contact",
+      title: "Contact",
+    },
+  ];
+  
+  const services = [
+    {
+      title: "Javascript",
+      icon: web,
+    },
+    {
+      title: "React",
+      icon: mobile,
+    },
+    {
+      title:"HTML,CSS",
+      icon: backend,
+    },
+    {
+      title: "Redux",
+      icon: creator,
+    },
+    {
+      title: "Nodejs.js",
+      icon: creator,
+    },
+    {
+      title: "Express.js",
+      icon: creator,
+    },
+    {
+      title: "Typescript",
+      icon: creator,
+    },
+    {
+      title: "Mysql",
+      icon: creator,
+    },
+    {
+      title: "Sequelize",
+      icon: creator,
+    },
+    {
+      title: "Sql",
+      icon: creator,
+    },
+  ];
+  
+  const technologies = [
+    {
+      name: "HTML 5",
+      icon: html,
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
+    
+    
+  ];
+  
+  const experiences = [
+    {
+      title: "React.js Developer",
+      company_name: "Starbucks",
+      icon: starbucks,
+      iconBg: "#383E56",
+      date: "March 2020 , April 2021",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross,functional teams including designers, product managers, and other developers to create high,quality products.",
+        "Implementing responsive design and ensuring cross,browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "React Native Developer",
+      company_name: "Tesla",
+      icon: tesla,
+      iconBg: "#E6DEDD",
+      date: "Jan 2021 , Feb 2022",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross,functional teams including designers, product managers, and other developers to create high,quality products.",
+        "Implementing responsive design and ensuring cross,browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Web Developer",
+      company_name: "Shopify",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "Jan 2022 , Jan 2023",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross,functional teams including designers, product managers, and other developers to create high,quality products.",
+        "Implementing responsive design and ensuring cross,browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+    {
+      title: "Full stack Developer",
+      company_name: "Meta",
+      icon: meta,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 , Present",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross,functional teams including designers, product managers, and other developers to create high,quality products.",
+        "Implementing responsive design and ensuring cross,browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+  ];
+  
+  const testimonials = [
+    {
+      testimonial:
+        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      name: "Sara Lee",
+      designation: "CFO",
+      company: "Acme Co",
+      image: "https://randomuser.me/api/portraits/women/4.jpg",
+    },
+    {
+      testimonial:
+        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      name: "Chris Brown",
+      designation: "COO",
+      company: "DEF Corp",
+      image: "https://randomuser.me/api/portraits/men/5.jpg",
+    },
+    {
+      testimonial:
+        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      name: "Lisa Wang",
+      designation: "CTO",
+      company: "456 Enterprises",
+      image: "https://randomuser.me/api/portraits/women/6.jpg",
+    },
+  ];
+  
+  const projects = [
+    {
+      name: "Ecommerce,Website With Live appointment",
+      description:
+        " backend,frontend communication, signIn and signOut part, Payment Gatway, user,specific cart, ZEGOCLOUD for book appointment for live consultancy, Firebase for authentication and real,time data for storage",
+      tags: [
+        {
+          name: "react",
+          color: "blue,text,gradient",
+        },
+        {
+          name: "Firebase",
+          color: "pink,text,gradient",
+        },
+        { 
+          name:"RazorPay",
+          color: "orange,text,gradient",
+        },
+        { 
+          name:"Zeglocloud",
+          color: "orange,text,gradient",
+        },
+      ],
+      image: e,
+      source_code_link: "https://github.com/indrayanikalake/ecommerce,website.git",
+    },
+    {
+      name: "Mail Box Client",
+      description:
+        "signIn and signOut, send and receive mail, user specific information, basic CRUD operation, Implemented GET/POST/PUT requests to firebase in order to retrieve user",
+      tags: [
+        {
+          name: "react",
+          color: "blue,text,gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green,text,gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink,text,gradient",
+        },
+        {
+          name: "Three.js",
+          color: "pink,text,gradient",
+        },
+      ],
+      image: mail,
+      source_code_link: "https://github.com/indrayanikalake/restraurent.git",
+    },
+   
+    {
+      name: "Expense Tracker",
+      description:
+        "premium users can get extra benefits like provision to download their expense in an excel format and change theme feature. Users expense data is protected using authentication method. Graphical Representation Implemented firebase to manage data at backend",
+      tags: [
+        {
+          name: "react",
+          color: "blue,text,gradient",
+        },
+        {
+          name: "Firebase",
+          color: "green,text,gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink,text,gradient",
+        },
+        {
+          name: "chart.js",
+          color: "pink,text,gradient",
+        },
+        
+      ],
+      image: expenseTracker,
+      source_code_link: "https://github.com/indrayanikalake/expense,tracker.git",
+    },
+    {
+      name: "Restaurant",
+      description:
+        "Web application that enables users orders, add to the cart, add or reduce the amount of orders and (basic CRUD operation).",
+      tags: [
+        {
+          name: "react",
+          color: "blue,text,gradient",
+        },
+        {
+          name: "css",
+          color: "pink,text,gradient",
+        },
+        { 
+          name:"context api",
+          color: "orange,text,gradient",
+        },
+      ],
+      image: restaurent,
+      source_code_link: "https://github.com/indrayanikalake/ecommerce,website.git",
+    },
+    {
+      name: "Advisory APP",
+      description:
+        "Web application gives you free advice or you can say it's a random chat",
+      tags: [
+        {
+          name: "react",
+          color: "blue,text,gradient",
+        },
+        {
+          name: "Rest API",
+          color: "pink,text,gradient",
+        },
+        { 
+          name:"css",
+          color: "orange,text,gradient",
+        },
+      ],
+      image:chat,
+      source_code_link: "https://github.com/indrayanikalake/random-quote-generator.git",
+    },
+  ];
+  
+  export { services, technologies, experiences, testimonials, projects };
