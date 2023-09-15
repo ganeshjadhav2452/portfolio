@@ -25,13 +25,7 @@ const Hero = () => {
      </div>
      
     </div>
-    <div
-    className='profile md:block rounded-full overflow-hidden'
-     style={{ margin:'4rem 20rem',width:'50%', height:'68vh', boxShadow:' 10px 15px 25px white'}}>
-    
-    <img className='rounded-full w-18 h-full transform scale-125 hover:scale-150 cursor-pointer transition-transform duration-300' 
-     src={ai}/>
-    </div>
+   
     </section>
   );
 };

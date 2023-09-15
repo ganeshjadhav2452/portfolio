@@ -56,7 +56,7 @@ return(
 
 const Works = () => {
   return (
-    <>
+    <div className='w-screen'>
     <motion.div variants={textVariant()}>
       <p className={styles.sectionSubText}>My Work</p>
       <h2 className={styles.heroHeadText}>Projects.</h2>
@@ -72,7 +72,7 @@ const Works = () => {
      </motion.p>
 
     </div>
-    <div className='mt-20 flex flex-wrap gap-7 '>
+    <div className='mt-20 flex flex-wrap gap-7  '>
     {projects.map((project, index) =>(
       <ProjectCard className='h-24'
       key={`project-${index}`}
@@ -81,7 +81,7 @@ const Works = () => {
       />
     ))}
     </div>
-    </>
+    </div>
   )
 }
 

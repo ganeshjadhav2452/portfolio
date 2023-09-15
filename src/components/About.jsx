@@ -39,7 +39,7 @@ const About = () => {
      I'm a quick learner and collaborate closely with people to create efficient, scalable and user-friendly 
      solutions that solve real-world problems.
     </motion.p>
-    <div className='mt-20 flex flex-wrap gap-10'>
+    <div className='mt-20 flex flex-wrap gap-10 w-screen'>
      {services.map((service, index) =>(
       <ServiceCard key={service.title} title={service.title} index={index} icon={service.icon} {...services} />
      ))}

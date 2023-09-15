@@ -210,16 +210,20 @@ import {
   
   const projects = [
     {
-      name: "Ecommerce,Website With Live appointment",
+      name: "Fullstack Expense Tracker Web App",
       description:
-        " backend,frontend communication, signIn and signOut part, Payment Gatway, user,specific cart, ZEGOCLOUD for book appointment for live consultancy, Firebase for authentication and real,time data for storage",
+        " backend,frontend communication, signIn and signOut part, Payment Gatway, user,specific Expenses, password Hashing, JSON Web Token (JWT)",
       tags: [
         {
           name: "react",
           color: "blue,text,gradient",
         },
         {
-          name: "Firebase",
+          name: "Redux Toolkit",
+          color: "blue,text,gradient",
+        },
+        {
+          name: "MYSQL",
           color: "pink,text,gradient",
         },
         { 
@@ -227,107 +231,60 @@ import {
           color: "orange,text,gradient",
         },
         { 
-          name:"Zeglocloud",
+          name:"Nodejs",
+          color: "orange,text,gradient",
+        },
+        { 
+          name:"ExpressJS",
+          color: "orange,text,gradient",
+        },
+        { 
+          name:"Sequelize",
           color: "orange,text,gradient",
         },
       ],
       image: e,
-      source_code_link: "https://github.com/indrayanikalake/ecommerce,website.git",
+      source_code_link: "https://github.com/ganeshjadhav2452/fullstack-expense-tracker-webapp",
     },
     {
-      name: "Mail Box Client",
+      name: "Fullstack Group Chat Web App",
       description:
-        "signIn and signOut, send and receive mail, user specific information, basic CRUD operation, Implemented GET/POST/PUT requests to firebase in order to retrieve user",
+        "backend,frontend communication, signIn and signOut part, Payment Gatway, user,specific Expenses, password Hashing, JSON Web Token (JWT)",
       tags: [
         {
           name: "react",
           color: "blue,text,gradient",
         },
         {
-          name: "Firebase",
-          color: "green,text,gradient",
+          name: "Redux Toolkit",
+          color: "blue,text,gradient",
         },
         {
-          name: "Redux",
+          name: "MYSQL",
           color: "pink,text,gradient",
         },
-        {
-          name: "Three.js",
-          color: "pink,text,gradient",
+        { 
+          name:"RazorPay",
+          color: "orange,text,gradient",
+        },
+        { 
+          name:"Nodejs",
+          color: "orange,text,gradient",
+        },
+        { 
+          name:"ExpressJS",
+          color: "orange,text,gradient",
+        },
+        { 
+          name:"Sequelize",
+          color: "orange,text,gradient",
         },
       ],
       image: mail,
-      source_code_link: "https://github.com/indrayanikalake/restraurent.git",
+      source_code_link: "https://github.com/ganeshjadhav2452/fullstack-group-chat-app",
     },
    
-    {
-      name: "Expense Tracker",
-      description:
-        "premium users can get extra benefits like provision to download their expense in an excel format and change theme feature. Users expense data is protected using authentication method. Graphical Representation Implemented firebase to manage data at backend",
-      tags: [
-        {
-          name: "react",
-          color: "blue,text,gradient",
-        },
-        {
-          name: "Firebase",
-          color: "green,text,gradient",
-        },
-        {
-          name: "Redux",
-          color: "pink,text,gradient",
-        },
-        {
-          name: "chart.js",
-          color: "pink,text,gradient",
-        },
-        
-      ],
-      image: expenseTracker,
-      source_code_link: "https://github.com/indrayanikalake/expense,tracker.git",
-    },
-    {
-      name: "Restaurant",
-      description:
-        "Web application that enables users orders, add to the cart, add or reduce the amount of orders and (basic CRUD operation).",
-      tags: [
-        {
-          name: "react",
-          color: "blue,text,gradient",
-        },
-        {
-          name: "css",
-          color: "pink,text,gradient",
-        },
-        { 
-          name:"context api",
-          color: "orange,text,gradient",
-        },
-      ],
-      image: restaurent,
-      source_code_link: "https://github.com/indrayanikalake/ecommerce,website.git",
-    },
-    {
-      name: "Advisory APP",
-      description:
-        "Web application gives you free advice or you can say it's a random chat",
-      tags: [
-        {
-          name: "react",
-          color: "blue,text,gradient",
-        },
-        {
-          name: "Rest API",
-          color: "pink,text,gradient",
-        },
-        { 
-          name:"css",
-          color: "orange,text,gradient",
-        },
-      ],
-      image:chat,
-      source_code_link: "https://github.com/indrayanikalake/random-quote-generator.git",
-    },
+   
   ];
   
   export { services, technologies, experiences, testimonials, projects };
